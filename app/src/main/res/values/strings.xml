@@ -1,0 +1,62 @@
+<resources>
+    <!-- App name [CHAR LIMIT=20] -->
+    <string name="app_name">renovo</string>
+
+    <!-- About us Text [CHAR LIMIT=20] -->
+    <string name="text1">Renovo is a architectural visualization studio that specializes in 3D rendering services and solutions for the real estate market.Our team strives to work closely with our customers. It is important for us to understand how you imagine the world around you and how you fit into it. That\'s how we create your virtual world.
+    </string>
+
+    <!-- About us title [CHAR LIMIT=20] -->
+    <string name="about_us">About Us</string>
+
+    <!-- Team profile name, founder [CHAR LIMIT=20] -->
+    <string name="profile_one">Antonia Mihailova | Founder | 3D Artist</string>
+
+    <!-- Team profile name, artist [CHAR LIMIT=20] -->
+    <string name="profile_two">Kiril Kamenov | 3D Artist</string>
+
+    <!-- Contact us title[CHAR LIMIT=20] -->
+    <string name="contact_us">Contact Us</string>
+
+    <!-- Contact question text[CHAR LIMIT=20] -->
+    <string name="contact_question">Do you have any questions? Fell free to contact us immediately</string>
+
+    <!-- Contact us email address[CHAR LIMIT=20] -->
+    <string name="email_address">Email Address</string>
+
+    <!-- Edit text customer name[CHAR LIMIT=20] -->
+    <string name="first_name">First name</string>
+
+    <!-- Edit text email subject[CHAR LIMIT=20] -->
+    <string name="subject">Subject</string>
+
+    <!-- Edit text customer message[CHAR LIMIT=20] -->
+    <string name="user_message">Type your message here</string>
+
+    <!-- Text for send email button[CHAR LIMIT=20] -->
+    <string name="send_email_button">Send Your Email</string>
+
+    <!--Contact details title[CHAR LIMIT=20] -->
+    <string name="contact_details">Contact Details</string>
+
+    <!-- Founder name[CHAR LIMIT=20] -->
+    <string name="founder_name">Antonia Mihailova</string>
+
+    <!-- Home email address[CHAR LIMIT=20] -->
+    <string name="home_email">renovobg@gmail.com</string>
+
+    <!-- Contact phone[CHAR LIMIT=20] -->
+    <string name="phone">+359898750990</string>
+
+    <!-- Contact street[CHAR LIMIT=20] -->
+    <string name="street">Dr. Golovina, No 17</string>
+
+    <!-- Contact state , country[CHAR LIMIT=20] -->
+    <string name="state_country">9010, Varna, Bulgaria</string>
+
+    <!-- Copyrights[CHAR LIMIT=20] -->
+    <string name="copyright">Copyright by Renovo, 2018</string>
+
+</resources>
+
+
