@@ -57,6 +57,27 @@
     <!-- Copyrights[CHAR LIMIT=20] -->
     <string name="copyright">Copyright by Renovo, 2018</string>
 
+    <!-- Error Message CHAR LIMIT=20] -->
+    <string name="error_fill_email">Please add correct eMail.</string>
+
+    <!-- Error Message CHAR LIMIT=20] -->
+    <string name="error_fill_name">Please add your name.</string>
+
+    <!-- Error Message CHAR LIMIT=20] -->
+    <string name="error_fill_subject">Please add your subject</string>
+
+    <!-- Error Message CHAR LIMIT=20] -->
+    <string name="error_fill_message">Please add your message</string>
+
+    <!-- Error Message CHAR LIMIT=20] -->
+    <string name="google_link">http://maps.google.com/maps?q=loc:</string>
+
+    <!-- Error Message CHAR LIMIT=20] -->
+    <string name="youtube_link">https://www.youtube.com/channel/UCYYDsRTzZnvDSVNaW6mDcfw/videos?view_as=subscriber</string>
+
+    <!-- Error Message CHAR LIMIT=20] -->
+    <string name="facebook_link">https://www.facebook.com/renovo.visualization/?ref=bookmarks</string>
+
 </resources>
 
 
