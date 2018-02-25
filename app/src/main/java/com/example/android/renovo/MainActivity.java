@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             public void onTick(long millisUntilFinished) {
                 final String[] textArray = getResources().getStringArray(R.array.main_text_array);
                 final android.os.Handler handler = new android.os.Handler();
-                //final Handler handler = new Handler();
+
                 handler.post(new Runnable() {
 
                     @Override
@@ -213,16 +213,16 @@ public class MainActivity extends AppCompatActivity {
 
                 // check Edit Text user input data
                 if (customerEmail.getText().toString().trim().equals("")) {
-                    Toast.makeText(getApplicationContext(), "Please add correct eMail.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.error_fill_email, Toast.LENGTH_LONG).show();
 
                 } else if (customerName.getText().toString().trim().equals("")) {
-                    Toast.makeText(getApplicationContext(), "Please add your name.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.error_fill_name, Toast.LENGTH_LONG).show();
 
                 } else if (customerSubject.getText().toString().trim().equals("")) {
-                    Toast.makeText(getApplicationContext(), "Please add your subject", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.error_fill_subject, Toast.LENGTH_LONG).show();
 
                 } else if (customerData.getText().toString().trim().equals("")) {
-                    Toast.makeText(getApplicationContext(), "Please add your message", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.error_fill_message, Toast.LENGTH_LONG).show();
 
                 } else {
                     getEditTextValues(); // get values from edit text views
@@ -273,7 +273,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void directionMap() {
 
-        String strUri = "http://maps.google.com/maps?q=loc:" + 43.216839 + "," + 27.928100;
+        String strUri = getString(R.string.google_link) + 43.216839 + "," + 27.928100;
         Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(strUri));
         intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
         startActivity(intent);
@@ -286,7 +286,7 @@ public class MainActivity extends AppCompatActivity {
 //------------------------------------------------------------------------------------------------//
     public void goToYouTube() {
 
-        String strUri = "https://www.youtube.com/channel/UCYYDsRTzZnvDSVNaW6mDcfw/videos?view_as=subscriber";
+        String strUri = getString(R.string.youtube_link);
         Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(strUri));
         startActivity(intent);
     }
@@ -298,7 +298,7 @@ public class MainActivity extends AppCompatActivity {
 //------------------------------------------------------------------------------------------------//
     public void goToFaceBook() {
 
-        String strUri = "https://www.facebook.com/renovo.visualization/?ref=bookmarks";
+        String strUri = getString(R.string.facebook_link);
         Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(strUri));
         startActivity(intent);
     }
