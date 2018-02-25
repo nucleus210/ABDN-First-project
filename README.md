@@ -11,7 +11,7 @@ Features:
 
 * Slide show text to Text View; 
 
-* Scroll View with Parallax effect to expand screen view. To make done Parallax effect i use emty image then I check real device screen resolution and set emty Image to this resolution. With little code get nice Parallax effect;
+* Scroll View with Parallax effect to expand screen view. To make done Parallax effect i use empty image then I check real device screen resolution and set empty Image to this resolution. With little code get nice Parallax effect;
 
 * Social icons connected to Facebook, YouTube pages;
 
